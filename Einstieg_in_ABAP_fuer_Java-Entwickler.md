@@ -1,9 +1,10 @@
 ---
 output:
-  word_document:
+  github_document:
     toc: true
     toc_depth: 3
 ---
+
 
 
 # Einstieg in ABAP für Java-Entwickler
@@ -11,3 +12,9 @@ output:
 ## Abschnitt 1.1
 
 ### Unterabschnitt 1.1.1
+### Unterabschnitt 1.1.2
+### Unterabschnitt 1.1.3
+
+## Abschnitt 1.2
+
+
