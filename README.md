@@ -18,13 +18,13 @@ Kurzreferenz mit Parallelbeispielen in Java und ABAP, als Einstiegshilfe für Ja
 
 ## Java Beispiel ausführen
 
-Voraussetzung: JDK 17+ (geht meistens auch mit älteren Versionen, je nach Syntax).
-
 ```
 cd java
 javac GrundlagenDemo.java
 java GrundlagenDemo
 ```
+
+_Voraussetzung: JDK 17+ (geht meistens auch mit älteren Versionen, je nach Syntax)._
 
 ## ABAP Beispiel ausführen
 
