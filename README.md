@@ -1,6 +1,8 @@
-# abap-vs-java-basics
+# Der kompakte Vergleich zwischen Java und ABAP
 
-Parallel-Beispiele in **Java** und **ABAP**, um den Einstieg in ABAP aus Java-Sicht zu erleichtern. Fokus: Basics, typische Patterns im SAP-Umfeld und kurze, verständliche Beispiele.
+_Einstieg in ABAP für Java-Entwickler_
+
+Kurzreferenz mit Parallelbeispielen in Java und ABAP, als Einstiegshilfe für Java-Entwickler beim ersten Kontakt mit ABAP (SAP-Berufseinstieg), mit Fokus auf Basics, typische SAP-Patterns und kurze, verständliche Beispiele.
 
 ## Projektstruktur (Vorschlag)
 
