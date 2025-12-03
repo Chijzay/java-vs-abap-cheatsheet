@@ -1,9 +1,3 @@
----
-output:
-  github_document:
-    toc: true
-    toc_depth: 3
----
 
 
 
@@ -18,3 +12,6 @@ output:
 ## Abschnitt 1.2
 
 
+- [Kapitel 1](#kapitel-1)
+- [Abschnitt](#abschnitt)
+- [Kapitel 2](#kapitel-2)
