@@ -4,7 +4,7 @@ _Einstieg in ABAP für Java-Entwickler_
 
 Kurzreferenz mit Parallelbeispielen in Java und ABAP, als Einstiegshilfe für Java-Entwickler beim ersten Kontakt mit ABAP (SAP-Berufseinstieg), mit Fokus auf Basics, typische SAP-Patterns und kurze, verständliche Beispiele.
 
-## Projektstruktur (Vorschlag)
+## Projektstruktur
 
 ```
 .
