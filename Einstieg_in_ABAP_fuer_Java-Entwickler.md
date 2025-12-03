@@ -1,5 +1,4 @@
 ---
-title: "Einstieg_in_ABAP_fuer_Java-Entwickler"
 output:
   word_document:
     toc: true
@@ -7,6 +6,8 @@ output:
 ---
 
 
-# Kapitel 1
+# Einstieg in ABAP für Java-Entwickler
+
 ## Abschnitt 1.1
+
 ### Unterabschnitt 1.1.1
