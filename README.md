@@ -24,7 +24,7 @@ javac GrundlagenDemo.java
 java GrundlagenDemo
 ```
 
-_Voraussetzung: JDK 17+ (geht meistens auch mit älteren Versionen, je nach Syntax)._
+_Voraussetzung: JDK 17+ (geht meistens auch mit älteren Versionen)._
 
 ## ABAP Beispiel ausführen
 
