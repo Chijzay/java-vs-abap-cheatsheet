@@ -14,9 +14,4 @@
 | Objekt instanzieren  | `DATA lo_obj TYPE REF TO zcl_meine_klasse.`            | `MeineKlasse obj = new MeineKlasse();`              |
 |                      | `CREATE OBJECT lo_obj.`            |                                         |
 | Methodenaufruf       | `lo_obj->methode( ).`              | `obj.methode();`                        |
-|----------------------|------------------------------------|-----------------------------------------|
 
-
-CREATE OBJECT
-lo_obj. <br> " (Vorher: DATA
-lo_obj TYPE REF TO Class.)
