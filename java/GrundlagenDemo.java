@@ -11,7 +11,7 @@ public class GrundlagenDemo {
         double preis = 19.99;
         boolean istAktiv = true;
         char buchstabe = 'A';
-        String name = "Max";
+        String name = "unbekannt";
 
         System.out.println("Name: " + name + ", Preis: " + preis);
 
@@ -19,7 +19,10 @@ public class GrundlagenDemo {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Gib eine Zahl ein: ");
         int eingabe = scanner.nextInt();
-
+        
+		System.out.print("Gib deinen Namen ein: ");
+		name = scanner.next();
+        
         // if-Anweisung
         if (eingabe > 10) {
             System.out.println("Die Zahl ist größer als 10.");
