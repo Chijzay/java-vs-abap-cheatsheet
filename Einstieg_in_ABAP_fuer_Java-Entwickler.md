@@ -1,7 +1,29 @@
-# Einstieg in ABAP für Java-Entwickler
+# Einführung in ABAP für Java-Entwickler
 
-...
 
+## ABAP Überblock und seine typischen Einsatzgebiete
+
+ABAP (Advanced Business Application Programming) ist die herstellerspezifische Programmiersprache der
+Firma SAP und die Programmiersprache für SAP-Geschäftsanwendungen – von klassischem ERP bis S/4HANA.. Sie wurde ursprünglich in den 1980er Jahren als „Allgemeiner Berichtsaufbereitungsprozessor“ entwickelt, um Berichte im SAP-System zu erstellen . Mit der Einführung von SAP R/3 in den 1990er Jahren wurde ABAP deutlich erweitert. Seither basiert das gesamte SAP-ERP-System auf ABAP. Unternehmen nutzen ABAP, um ihre SAP-Lösungen an individuelle Geschäftsanforderungen (Customizing) anzupassen. Ein Java-Entwickler stößt früher oder später auf ABAP. Diese Dokumentation führt in ABAP ein, speziell aus Sicht eines Java-Kenners. Jeder Abschnitt vergleicht ABAP mit Java, um beide Programmiersprachen verständlich zu veranschaulichen.
+
+### Typische Einsatzgebiete von ABAP sind unter anderem:
+
+- Reports (Berichte erstellen oder Auswertungen): Erstellung von Auswertungsprogrammen, die Daten aus der SAP-Datenbank lesen und in übersichtlicher Form darstellen (z.B. Listenberichte, ALVReports).
+- Schnittstellen: Entwicklung von Programmen, die Daten mit Drittsystemen austauschen (z.B. über IDocs, RFC/Webservices), um SAP in die bestehende IT-Landschaft zu integrieren.
+- Datenmigration: Massenhafte Übernahme oder Bereinigung von Daten, z.B. beim Einspielen von Altdaten in ein neues SAP-System oder beim Transfer von Daten zwischen Systemen. Hierfür werden häufig spezielle ABAP-Programme oder Tools (wie LSMW) eingesetzt.
+- Formulare und Druckprogramme: Erstellung von Druckformularen (z.B. Rechnungen, Lieferscheine) mittels Technologien wie Smart Forms oder Adobe Forms, die im Kern ebenfalls ABAP-basiert sind.
+- Erweiterungen und Automatisierungen: Implementierung kundenspezifischer Geschäftslogik, Anpassung von SAP-Standardfunktionen (User-Exits, BAdIs) sowie Automatisierung von Geschäftsprozessen durch eigene ABAP-Codebausteine.
+
+Kurz gesagt: ABAP ist die wesentloche Sprache im SAP-Ökosystem, um maßgeschneiderte Geschäftslogik und Datenverarbeitung direkt auf der SAP-Plattform umzusetzen. Im SAP-Kontext übernimmt ABAP Aufgaben, die man in anderen Umgebungen z.B. mit Java, Python oder SQL lösen würde – allerdings optimiert innerhalb des SAP-Systems. So sorgt ABAP für effiziente Datenbankzugriffe und einen reibungslosen Datenaustausch im SAP-Kern.
+
+
+## Grundlagen der ABAP-Syntax im Vergleich zu Java
+
+Die ABAP-Syntax unterscheidet sich in mehreren Punkten von Java, obwohl beide prozedurale bzw. objektorientierte Sprachen sind. Als Java-Entwickler sollte man insbesondere auf folgende Unterschiede achten:
+
+- _Schlüsselwörter statt Klammern:_ ABAP verwendet Schlüsselwort-Paare zur Strukturierung anstelle von geschweiften Klammern. Codeblöcke werden z.B. mit `IF ... ENDIF`, `DO ... ENDDO` oder `LOOP ... ENDLOOP` eingerahmt, anstatt `{ ... }` zu verwenden.
+
+Ein einfaches ABAP-Programm ähnelt strukturell einem kleinen Skript, das vom SAP-Laufzeitsystem ereignisgesteuert ausgeführt wird. Es gibt keine `main()`-Methode wie in Java. Stattdessen beginnen ABAP-Programme sofort mit ausführbaren Anweisungen oder definieren verarbeitungsblöcke (z.B. Events wie `START-OF-SELECTION` für Reports). Beim Ausführen eines Reports durchläuft das System vordefinierte Ereignisse in einer festen Reihenfolge (Initialisierung, Selektionsbildschirm, Start-of-Selection, etc.), an die man Code anhängen kann. Dieses Konzept wird im Abschnitt über Reporte noch näher erläutert. Insgesamt sollte die ABAP-Syntax aber keinen Java-Entwickler abschrecken. Sie ist nur etwas anders und stark an die Bedürfnisse der Geschäftsprogrammierung angepasst (z.B. eingebettete SQL-Queries, Formatierungsausgaben, etc.)
 
 
 
