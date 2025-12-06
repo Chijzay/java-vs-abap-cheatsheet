@@ -9,8 +9,10 @@ Kurzreferenz mit Parallelbeispielen in Java und ABAP, als Einstiegshilfe für Ja
 ```
 .
 ├─ java/
+│  ├─ java-demo-info.md                     # Im Programm enthaltene Grundlagen
 │  └─ GrundlagenDemo.java                   # Beispiele in Java
 ├─ abap/
+│  ├─ abap-demo-info.md                     # Im Programm enthaltene Grundlagen
 │  └─ zgrundlagen_demo.abap                 # Beispiele in ABAP
 ├─ Einstieg_in_ABAP_fuer_Java-Entwickler    # Cheatsheet
 └─ README.md
