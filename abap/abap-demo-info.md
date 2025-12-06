@@ -1,16 +1,16 @@
 ## Was dieses ABAP-Programm zeigt:
 
-| Konzept                | Beispiel im Code                                    |
-| ---------------------- | --------------------------------------------------- |
-| Einstiegspunkt         | `REPORT`, `START-OF-SELECTION`                      |
-| Datentypen & Variablen | `TYPE i`, `TYPE string`, `TYPE abap_bool`           |
-| Benutzer-Eingabe       | `PARAMETERS`                                        |
-| Bedingungen            | `IF`, `ELSE`, `CASE`, `WHEN`                        |
-| Schleifen & Arrays     | `LOOP AT`, `APPEND` mit interner Tabelle            |
-| Methoden               | `FORM`, später `METHOD` in Klasse                   |
-| Klassen & Konstruktor  | `CLASS ... DEFINITION / IMPLEMENTATION`             |
-| Objekte & Aufrufe      | `NEW lcl_person(...)`, `->` Methodenaufruf          |
-| Ausgabe                | `WRITE`, auch mit `NO-GAP` für kompakte Zahlenzeile |
+| Konzept                  | Beispiel im Code                                    |
+| ------------------------ | --------------------------------------------------- |
+| Einstiegspunkt           | `REPORT`, `START-OF-SELECTION`                      |
+| Datentypen und Variablen | `TYPE i`, `TYPE string`, `TYPE abap_bool`           |
+| Benutzer-Eingabe         | `PARAMETERS`                                        |
+| Bedingungen              | `IF`, `ELSE`, `CASE`, `WHEN`                        |
+| Schleifen und Arrays     | `LOOP AT`, `APPEND` mit interner Tabelle            |
+| Methoden                 | `FORM`, später `METHOD` in Klasse                   |
+| Klassen und Konstruktor  | `CLASS ... DEFINITION / IMPLEMENTATION`             |
+| Objekte und Aufrufe      | `NEW lcl_person(...)`, `->` Methodenaufruf          |
+| Ausgabe                  | `WRITE`, auch mit `NO-GAP` für kompakte Zahlenzeile |
 
 
 ## Hinweise
