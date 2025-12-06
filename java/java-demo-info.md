@@ -18,4 +18,13 @@
 | Schleifen (for-each)             | `for (int z : zahlen) { ... }`                                                       |
 | Schleifen (while)                | `while (i < 3) { ... }`                                                              |
 | Collections / Listen             | `List<String> namen = new ArrayList<>();`, `namen.add(...)`                          |
-| Methoden (Parameter + Re         |                                                                                      |
+| Methoden (Parameter + Return)    | `public static int berechneSumme(int a, int b) { return a + b; }`                    |
+| Klassen/Objekte (OOP)            | `class Person`, `Person person = new Person(...);`                                   |
+| Konstruktor                      | `public Person(String name, int alter) { ... }`                                      |
+| Kapselung (private Felder)       | `private String name;`, `private int alter;`                                         |
+| Getter/Setter                    | `getName()`, `setName(...)`                                                          |
+| Objekt-Zustand ändern            | `person.hatGeburtstag();` *(alter++)*                                                |
+| `toString()` + `@Override`       | `@Override public String toString() { ... }` und `System.out.println(person);`       |
+| String-Vergleich korrekt         | `"unbekannt".equals(name)` *(statt `==`)*                                            |
+| `null`-Grundlage                 | `Person maybeNull = null; if (maybeNull == null) { ... }`                            |
+| Ressourcen sauber schließen      | `try-with-resources` schließt `Scanner` automatisch                                  |
